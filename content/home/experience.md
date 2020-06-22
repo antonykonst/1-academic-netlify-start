@@ -1,5 +1,5 @@
 +++
-# Experience widget.
+# Erfahrungswidget.
 widget = "experience"  # See https://sourcethemes.com/academic/docs/page-builder/
 headless = true  # This file represents a page section.
 active = true  # Activate this widget? true/false
@@ -8,20 +8,20 @@ weight = 40  # Order that this section will appear.
 title = "Experience"
 subtitle = ""
 
-# Date format for experience
+# Datumformat für Erfahrungen
 #   Refer to https://sourcethemes.com/academic/docs/customization/#date-format
 date_format = "Jan 2006"
 
-# Experiences.
-#   Add/remove as many `[[experience]]` blocks below as you like.
+# Erfahrungen.
+#   Füge so viel `[[experience]]`Erfahrungsblöcke unten wie du möchtest hinzu oder lösche solche, die du nicht mehr benötigst.
 #   Required fields are `title`, `company`, and `date_start`.
 #   Leave `date_end` empty if it's your current employer.
 #   Begin/end multi-line descriptions with 3 quotes `"""`.
 [[experience]]
   title = "CEO"
-  company = "GenCoin"
-  company_url = ""
-  location = "California"
+  company = "MeinProjektName"
+  company_url = "www.MeinProjektName.org"
+  location = "Konstanz"
   date_start = "2017-01-01"
   date_end = ""
   description = """
@@ -30,6 +30,9 @@ date_format = "Jan 2006"
   * Analysing
   * Modelling
   * Deploying
+  * Wissenstransfer
+  * Lebenslanges Lernen
+  * 
   """
 
 [[experience]]
